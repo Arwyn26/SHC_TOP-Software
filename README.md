@@ -9,27 +9,27 @@ Sign-Up for GitHub.
 
 ### Step-by-Step GitHub Set-Up For Not-Yet Added Arduino Projects:
 1. Navigate to Your Arduino Project Folder in File Explorer (ex. Documents/Arduino/exampleProject/).
-1.5. Navigate to your Project Folder in Git (using command "cd").
-2. Initialize Git by running command: "git init". This turns the project folder into a Git repository).
-3. Check what will be tracked/untracked by running command: "git status".
+1.5. Navigate to your Project Folder in Git (using command cd).
+2. Initialize Git by running command: git init. This turns the project folder into a Git repository).
+3. Check what will be tracked/untracked by running command: git status.
 	4. (Optional) Add a .gitignore file within File Explorer to determine which files shall not be put into GitHub.
-5. Add all files to the repository by running command: "git add .".
-5.5. Save the current version of your project by running command: "git commit -m "[Commit Info]"".
+5. Add all files to the repository by running command: git add . .
+5.5. Save the current version of your project by running command: git commit -m "[Commit Info]".
 	For example: "git commit -m "Implemented 'Enter Sandman' Into Buzzer List of Songs""
 7. Link your local repository to GitHub by running the following commands:
-	"git remote add origin [GitHub HTTPS Link] (main)
-	 git branch -M main
-	 git push -u origin main"
+	git remote add origin [GitHub HTTPS Link] (main)
+	git branch -M main
+	git push -u origin main
 
 ### Typical Workflow:
 When you make changes in Arduino that you wish to add to GitHub, commit and push your changes by running the commands:
-	"git pull
-	 git add .
-	 git commit -m "[Commit Info]"".
-	 git push"
+	git pull
+	git add .
+	git commit -m "[Commit Info]"
+	git push
 
 ### To Pull GitHub Code:
-	Run command "git clone [GitHub HTTPS Link].git"
+	git clone [GitHub HTTPS Link].git
 	Open cloned folder in Arduino IDE and continue development!
 
 If you have any questions, let me know!
