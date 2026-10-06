@@ -15,7 +15,7 @@ Step-by-Step GitHub Set-Up For Not-Yet Added Arduino Projects:
 	4. (Optional) Add a .gitignore file within File Explorer to determine which files shall not be put into GitHub.
 5. Add all files to the repository by running command: "git add .".
 5.5. Save the current version of your project by running command: "git commit -m "[Commit Info]"".
-	For example: "git commit -m "Arwyn - Implemented 'Enter Sandman' Into Buzzer List of Songs""
+	For example: "git commit -m "Implemented 'Enter Sandman' Into Buzzer List of Songs""
 7. Link your local repository to GitHub by running the following commands:
 	"git remote add origin [GitHub HTTPS Link] (main)
 	 git branch -M main
