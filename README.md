@@ -25,13 +25,13 @@ Sign-Up for GitHub.
 
 ### Typical Workflow:
 When you make changes in Arduino that you wish to add to GitHub, commit and push your changes by running the commands:
-	**git pull
-	git add .
-	git commit -m "[Commit Info]"
-	git push**
+1. **git pull**
+2. **git add .**
+3. **git commit -m "[Commit Info]"**
+4. **git push**
 
 ### To Pull GitHub Code:
 **git clone [GitHub HTTPS Link].git**
-Open cloned folder in Arduino IDE and continue development!
+1. Open cloned folder in Arduino IDE and continue development!
 
 If you have any questions, let me know!
