@@ -32,6 +32,6 @@ When you make changes in Arduino that you wish to add to GitHub, commit and push
 
 ### To Pull GitHub Code:
 **git clone [GitHub HTTPS Link].git**
-1. Open cloned folder in Arduino IDE and continue development!
+. Open cloned folder in Arduino IDE and continue development!
 
 If you have any questions, let me know!
