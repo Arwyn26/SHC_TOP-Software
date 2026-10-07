@@ -28,6 +28,9 @@
 #define BMP_CS 10
 */
 
+#define SDA 4
+#define SLC 5
+
 #define SEALEVELPRESSURE_HPA (1013.25)
 
 Adafruit_BMP3XX bmp;
@@ -35,6 +38,9 @@ Adafruit_BMP3XX bmp;
 void setup() {
   Serial.begin(115200);
   while (!Serial);
+  Wire.setSDA(SDA);
+  Wire.setSCL(SCL);
+  Wire.begin();
   Serial.println("Adafruit BMP388 test");
 
   if (!bmp.begin_I2C()) {   // hardware I2C mode, can pass in address & alt Wire

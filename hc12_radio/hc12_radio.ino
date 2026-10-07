@@ -1,6 +1,8 @@
+//program created with the help of programs from https://github.com/daar/HC-12
+
 //for uart
-#define rxPin 1
-#define txPin 0
+#define rxPin 0
+#define txPin 1
 #define HC12 Serial1
 
 long baud = 9600;

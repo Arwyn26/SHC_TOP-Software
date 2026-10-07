@@ -27,6 +27,9 @@
    2015/MAR/03  - First release (KTOWN)
 */
 
+#define SDA 4
+#define SLC 5
+
 /* Set the delay between fresh samples */
 uint16_t BNO055_SAMPLERATE_DELAY_MS = 100;
 
@@ -40,7 +43,9 @@ void setup(void)
   Serial.begin(115200);
 
   while (!Serial) delay(10);  // wait for serial port to open!
-
+  Wire.setSDA(SDA);
+  Wire.setSCL(SCL);
+  Wire.begin();
   Serial.println("Orientation Sensor Test"); Serial.println("");
 
   /* Initialise the sensor */

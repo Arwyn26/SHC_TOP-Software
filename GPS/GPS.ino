@@ -69,6 +69,9 @@ SFE_UBLOX_GNSS myGNSS;
 
 long lastTime = 0; //Simple local timer. Limits amount of SPI traffic to u-blox module.
 
+#define SDA 4
+#define SLC 5
+
 void setup()
 {
   Serial.begin(115200);
@@ -76,7 +79,8 @@ void setup()
   Serial.println(F("SparkFun u-blox Example"));
 
   //spiPort.begin(); // begin the SPI port
-
+  Wire.setSDA(SDA);
+  Wire.setSCL(SCL);
   Wire.begin();
 
   //myGNSS.enableDebugging(); // Uncomment this line to see helpful debug messages on Serial
