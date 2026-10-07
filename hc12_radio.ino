@@ -1,4 +1,4 @@
-//for uart
+//For uart
 #define rxPin 1
 #define txPin 0
 #define HC12 Serial1
